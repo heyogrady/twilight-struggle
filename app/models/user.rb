@@ -1,5 +1,8 @@
 class User < ActiveRecord::Base
 
+  has_many :us_games, class_name: "Game", inverse_of: :player_us, foreign_key: "player_us_id"
+  has_many :ussr_games, class_name: "Game", inverse_of: :player_ussr, foreign_key: "player_ussr_id"
+
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
