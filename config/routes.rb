@@ -1,5 +1,9 @@
 TwilightStruggle::Application.routes.draw do
 
+  resources :regions
+
+  resources :countries
+
   devise_for :users, controllers: { registrations: 'registrations' }
 
   # Authentication
