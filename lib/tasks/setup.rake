@@ -671,80 +671,96 @@ task setup_sample_data: [:environment, :not_production] do
                                               ]
                      )
     el_salvador.update!(connections_attributes: [{ neighbor: guatemala },
-                                                    { neighbor: honduras }
-      ])
+                                                 { neighbor: honduras }
+                                                ]
+                       )
     honduras.update!(connections_attributes: [{ neighbor: guatemala },
                                               { neighbor: el_salvador },
                                               { neighbor: costa_rica },
                                               { neighbor: nicaragua }
-      ])
+                                             ]
+                    )
     nicaragua.update!(connections_attributes: [{ neighbor: cuba },
                                                { neighbor: honduras },
                                                { neighbor: costa_rica }
-      ])
+                                              ]
+                     )
     haiti.update!(connections_attributes: [{ neighbor: cuba },
                                            { neighbor: dominican_republic }
-      ])
-    dominican_republic.update!(connections_attributes: [{ neighbor: haiti }
-      ])
+                                          ]
+                 )
+    dominican_republic.update!(connections_attributes: [{ neighbor: haiti }])
     costa_rica.update!(connections_attributes: [{ neighbor: panama },
                                                 { neighbor: nicaragua },
                                                 { neighbor: honduras }
-      ])
+                                               ]
+                      )
     panama.update!(connections_attributes: [{ neighbor: costa_rica },
                                             { neighbor: columbia,
                                               inter_regional: true
                                             }
-      ])
-
+                                           ]
+                  )
     venezuela.update!(connections_attributes: [{ neighbor: columbia },
                                                { neighbor: brazil }
-      ])
+                                              ]
+                     )
     ecuador.update!(connections_attributes: [{ neighbor: columbia },
                                              { neighbor: peru }
-      ])
+                                            ]
+                   )
     columbia.update!(connections_attributes: [{ neighbor: venezuela },
                                               { neighbor: ecuador },
                                               { neighbor: panama,
                                                 inter_regional: true
                                               }
-      ])
+                                             ]
+                    )
     peru.update!(connections_attributes: [{ neighbor: ecuador },
                                           { neighbor: bolivia },
                                           { neighbor: chile }
-      ])
+                                         ]
+                )
     brazil.update!(connections_attributes: [{ neighbor: venezuela },
                                             { neighbor: uruguay }
-      ])
+                                           ]
+                  )
     bolivia.update!(connections_attributes: [{ neighbor: peru },
                                              { neighbor: uruguay }
-      ])
+                                            ]
+                   )
     chile.update!(connections_attributes: [{ neighbor: peru },
                                            { neighbor: argentina }
-      ])
+                                          ]
+                 )
     paraguay.update!(connections_attributes: [{ neighbor: bolivia },
                                               { neighbor: uruguay },
                                               { neighbor: argentina }
-      ])
+                                             ]
+                    )
     argentina.update!(connections_attributes: [{ neighbor: chile },
                                                { neighbor: paraguay },
                                                { neighbor: uruguay }
-      ])
+                                              ]
+                     )
     uruguay.update!(connections_attributes: [{ neighbor: argentina },
                                              { neighbor: paraguay },
                                              { neighbor: brazil }
-      ])
-
+                                            ]
+                   )
     norway.update!(connections_attributes: [{ neighbor: united_kingdom },
                                             { neighbor: sweden }
-      ])
+                                           ]
+                  )
     denmark.update!(connections_attributes: [{ neighbor: sweden },
                                              { neighbor: west_germany }
-      ])
+                                            ]
+                   )
     sweden.update!(connections_attributes: [{ neighbor: norway },
                                             { neighbor: denmark },
                                             { neighbor: finland }
-      ])
+                                           ]
+                  )
     united_kingdom.update!(connections_attributes: [{ neighbor: norway },
                                                     { neighbor: france },
                                                     { neighbor: canada },
