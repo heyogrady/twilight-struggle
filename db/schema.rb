@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140225143027) do
+ActiveRecord::Schema.define(version: 20150109162017) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,23 @@ ActiveRecord::Schema.define(version: 20140225143027) do
   add_index "active_admin_comments", ["namespace"], name: "index_active_admin_comments_on_namespace", using: :btree
   add_index "active_admin_comments", ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id", using: :btree
 
+  create_table "connections", force: true do |t|
+    t.integer  "country_id"
+    t.integer  "neighbor_id"
+    t.boolean  "inter_regional", default: false
+    t.boolean  "superpower",     default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "countries", force: true do |t|
+    t.string   "name"
+    t.integer  "stability"
+    t.boolean  "battleground"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "delayed_jobs", force: true do |t|
     t.integer  "priority",   default: 0
     t.integer  "attempts",   default: 0
@@ -46,6 +63,13 @@ ActiveRecord::Schema.define(version: 20140225143027) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
+
+  create_table "regions", force: true do |t|
+    t.string   "name"
+    t.string   "abbr"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "",         null: false
@@ -69,5 +93,15 @@ ActiveRecord::Schema.define(version: 20140225143027) do
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+
+  create_table "vicinities", force: true do |t|
+    t.integer  "country_id"
+    t.integer  "region_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "vicinities", ["country_id"], name: "index_vicinities_on_country_id", using: :btree
+  add_index "vicinities", ["region_id"], name: "index_vicinities_on_region_id", using: :btree
 
 end

@@ -91,9 +91,6 @@ gem 'rest-client'
 # THIRD PARTY PLUGINS
 # -----------------------------------
 
-# connect to Heroku
-gem 'heroku'
-
 # serve gzipped assets
 gem 'rack-zippy'
 
@@ -186,7 +183,9 @@ end
 group :development, :test do
 
   # receive growl notifications from guard
-  gem 'ruby_gntp'
+  if !ENV['CI']
+    gem 'ruby_gntp'
+  end
 
   gem 'pry'
 
