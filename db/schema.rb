@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150110161241) do
+ActiveRecord::Schema.define(version: 20150111212335) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,6 +47,19 @@ ActiveRecord::Schema.define(version: 20150110161241) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "country_scores", force: true do |t|
+    t.integer  "us_influence",   default: 0
+    t.integer  "ussr_influence", default: 0
+    t.integer  "country_id"
+    t.integer  "game_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "controlled_by"
+  end
+
+  add_index "country_scores", ["country_id"], name: "index_country_scores_on_country_id", using: :btree
+  add_index "country_scores", ["game_id"], name: "index_country_scores_on_game_id", using: :btree
 
   create_table "delayed_jobs", force: true do |t|
     t.integer  "priority",   default: 0
