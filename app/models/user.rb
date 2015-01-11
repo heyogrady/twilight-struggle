@@ -16,17 +16,21 @@ class User < ActiveRecord::Base
   validates :email, uniqueness: true
 
   def name
-    [first_name, last_name].join(' ').strip
+    [first_name, last_name].join(" ").strip
   end
 
   def super_admin?
-    role == 'super_admin'
+    role == "super_admin"
   end
 
-  def as_json( options = {} )
-    new_options = options.merge({ only: [:email, :first_name, :last_name, :current_sign_in_at] })
+  def as_json(options={})
+    new_options = options.merge(only: [:email, :first_name, :last_name, :current_sign_in_at])
 
     super new_options
+  end
+
+  def games
+    Game.user_is_participant(self.id)
   end
 
   private

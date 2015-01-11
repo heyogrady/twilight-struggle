@@ -1,0 +1,22 @@
+= form_for @country_score do |f|
+  - if @country_score.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@country_score.errors.count, "error")} prohibited this country_score from being saved:"
+      %ul
+        - @country_score.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :us_influence
+    = f.number_field :us_influence
+  .field
+    = f.label :ussr_influence
+    = f.number_field :ussr_influence
+  .field
+    = f.label :country
+    = f.text_field :country
+  .field
+    = f.label :game
+    = f.text_field :game
+  .actions
+    = f.submit 'Save'

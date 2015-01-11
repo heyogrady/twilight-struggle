@@ -9,3 +9,8 @@ two:
   name: MyString
   stability: 1
   battleground: false
+
+mexico:
+  name: Mexico
+  stability: 2
+  battleground: true

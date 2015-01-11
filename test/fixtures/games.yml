@@ -1,11 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  player_us_id: 1
-  player_ussr_id: 1
+  player_us: nancy
+  player_ussr: admin
   status: MyString
 
 two:
-  player_us_id: 1
-  player_ussr_id: 1
+  player_us: nancy
+  player_ussr: admin
   status: MyString
+
+patrick_vs_mike:
+  player_us: patrick
+  player_ussr: mike
+  status: Active

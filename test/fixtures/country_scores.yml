@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  us_influence: 1
+  ussr_influence: 1
+  country: mexico
+  game: patrick_vs_mike
+
+two:
+  us_influence: 1
+  ussr_influence: 1
+  country_id: 
+  game_id: 
+
+patrick_vs_mike_mexico:
+  game: patrick_vs_mike
+  country: mexico
+  us_influence: 3
+  ussr_influence: 0

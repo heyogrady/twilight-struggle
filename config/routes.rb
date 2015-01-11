@@ -1,5 +1,7 @@
 TwilightStruggle::Application.routes.draw do
 
+  resources :country_scores
+
   resources :games
 
   resources :regions

@@ -1,0 +1,27 @@
+%h1 Listing country_scores
+
+%table
+  %thead
+    %tr
+      %th Us influence
+      %th Ussr influence
+      %th Country
+      %th Game
+      %th
+      %th
+      %th
+      
+  %tbody
+    - @country_scores.each do |country_score|
+      %tr
+        %td= country_score.us_influence
+        %td= country_score.ussr_influence
+        %td= country_score.country
+        %td= country_score.game
+        %td= link_to 'Show', country_score
+        %td= link_to 'Edit', edit_country_score_path(country_score)
+        %td= link_to 'Destroy', country_score, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Country score', new_country_score_path

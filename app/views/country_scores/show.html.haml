@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Us influence:
+  = @country_score.us_influence
+%p
+  %b Ussr influence:
+  = @country_score.ussr_influence
+%p
+  %b Country:
+  = @country_score.country
+%p
+  %b Game:
+  = @country_score.game
+
+= link_to 'Edit', edit_country_score_path(@country_score)
+\|
+= link_to 'Back', country_scores_path

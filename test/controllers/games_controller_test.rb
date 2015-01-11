@@ -1,8 +1,11 @@
 require 'test_helper'
 
 class GamesControllerTest < ActionController::TestCase
-  setup do
+
+  def setup
     @game = games(:one)
+    @patrick = users(:patrick)
+    sign_in @patrick
   end
 
   test "should get index" do
@@ -46,4 +49,5 @@ class GamesControllerTest < ActionController::TestCase
 
     assert_redirected_to games_path
   end
+
 end
