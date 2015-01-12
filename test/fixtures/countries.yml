@@ -4,13 +4,437 @@ one:
   name: MyString
   stability: 1
   battleground: false
-
 two:
   name: MyString
   stability: 1
   battleground: false
-
+united_states:
+  id: 1
+  name: United States
+  stability: 
+  battleground: 
+ussr:
+  id: 2
+  name: USSR
+  stability: 
+  battleground: 
 mexico:
+  id: 3
   name: Mexico
-  stability: 2
-  battleground: true
+  stability: '2'
+  battleground: t
+cuba:
+  id: 4
+  name: Cuba
+  stability: '3'
+  battleground: t
+guatemala:
+  id: 5
+  name: Guatemala
+  stability: '1'
+  battleground: f
+el_salvador:
+  id: 6
+  name: El Salvador
+  stability: '1'
+  battleground: f
+honduras:
+  id: 7
+  name: Honduras
+  stability: '2'
+  battleground: f
+nicaragua:
+  id: 8
+  name: Nicaragua
+  stability: '1'
+  battleground: f
+haiti:
+  id: 9
+  name: Haiti
+  stability: '1'
+  battleground: f
+dominican_republic:
+  id: 10
+  name: Dominican Republic
+  stability: '1'
+  battleground: f
+costa_rica:
+  id: 11
+  name: Costa Rica
+  stability: '3'
+  battleground: f
+panama:
+  id: 12
+  name: Panama
+  stability: '2'
+  battleground: t
+venezuela:
+  id: 13
+  name: Venezuela
+  stability: '2'
+  battleground: t
+ecuador:
+  id: 14
+  name: Ecuador
+  stability: '2'
+  battleground: f
+columbia:
+  id: 15
+  name: Columbia
+  stability: '1'
+  battleground: f
+peru:
+  id: 16
+  name: Peru
+  stability: '2'
+  battleground: f
+brazil:
+  id: 17
+  name: Brazil
+  stability: '2'
+  battleground: t
+bolivia:
+  id: 18
+  name: Bolivia
+  stability: '2'
+  battleground: f
+chile:
+  id: 19
+  name: Chile
+  stability: '3'
+  battleground: t
+paraguay:
+  id: 20
+  name: Paraguay
+  stability: '2'
+  battleground: f
+argentina:
+  id: 21
+  name: Argentina
+  stability: '2'
+  battleground: t
+uruguay:
+  id: 22
+  name: Uruguay
+  stability: '2'
+  battleground: f
+norway:
+  id: 23
+  name: Norway
+  stability: '4'
+  battleground: f
+denmark:
+  id: 24
+  name: Denmark
+  stability: '3'
+  battleground: f
+sweden:
+  id: 25
+  name: Sweden
+  stability: '4'
+  battleground: f
+united_kingdom:
+  id: 26
+  name: United Kingdom
+  stability: '5'
+  battleground: f
+canada:
+  id: 27
+  name: Canada
+  stability: '4'
+  battleground: f
+benelux:
+  id: 28
+  name: Benelux
+  stability: '3'
+  battleground: f
+west_germany:
+  id: 29
+  name: West Germany
+  stability: '4'
+  battleground: t
+france:
+  id: 30
+  name: France
+  stability: '3'
+  battleground: t
+spain_portugal:
+  id: 31
+  name: Spain/Portugal
+  stability: '2'
+  battleground: f
+italy:
+  id: 32
+  name: Italy
+  stability: '2'
+  battleground: t
+turkey:
+  id: 33
+  name: Turkey
+  stability: '2'
+  battleground: f
+greece:
+  id: 34
+  name: Greece
+  stability: '2'
+  battleground: f
+finland:
+  id: 35
+  name: Finland
+  stability: '4'
+  battleground: f
+austria:
+  id: 36
+  name: Austria
+  stability: '4'
+  battleground: f
+east_germany:
+  id: 37
+  name: East Germany
+  stability: '3'
+  battleground: t
+poland:
+  id: 38
+  name: Poland
+  stability: '3'
+  battleground: t
+czechoslovakia:
+  id: 39
+  name: Czechoslovakia
+  stability: '3'
+  battleground: f
+hungary:
+  id: 40
+  name: Hungary
+  stability: '3'
+  battleground: f
+romania:
+  id: 41
+  name: Romania
+  stability: '3'
+  battleground: f
+yugoslavia:
+  id: 42
+  name: Yugoslavia
+  stability: '3'
+  battleground: f
+bulgaria:
+  id: 43
+  name: Bulgaria
+  stability: '3'
+  battleground: f
+morocco:
+  id: 44
+  name: Morocco
+  stability: '3'
+  battleground: f
+algeria:
+  id: 45
+  name: Algeria
+  stability: '2'
+  battleground: t
+tunisia:
+  id: 46
+  name: Tunisia
+  stability: '2'
+  battleground: f
+west_african_states:
+  id: 47
+  name: West African States
+  stability: '2'
+  battleground: f
+saharan_states:
+  id: 48
+  name: Saharan States
+  stability: '1'
+  battleground: f
+sudan:
+  id: 49
+  name: Sudan
+  stability: '1'
+  battleground: f
+ivory_coast:
+  id: 50
+  name: Ivory Coast
+  stability: '2'
+  battleground: f
+nigeria:
+  id: 51
+  name: Nigeria
+  stability: '1'
+  battleground: t
+ethiopia:
+  id: 52
+  name: Ethiopia
+  stability: '1'
+  battleground: f
+cameroon:
+  id: 53
+  name: Cameroon
+  stability: '1'
+  battleground: f
+zaire:
+  id: 54
+  name: Zaire
+  stability: '1'
+  battleground: t
+kenya:
+  id: 55
+  name: Kenya
+  stability: '2'
+  battleground: f
+somalia:
+  id: 56
+  name: Somalia
+  stability: '2'
+  battleground: f
+angola:
+  id: 57
+  name: Angola
+  stability: '1'
+  battleground: t
+zimbabwe:
+  id: 58
+  name: Zimbabwe
+  stability: '1'
+  battleground: f
+se_african_states:
+  id: 59
+  name: SE African States
+  stability: '1'
+  battleground: f
+botswana:
+  id: 60
+  name: Botswana
+  stability: '2'
+  battleground: f
+south_africa:
+  id: 61
+  name: South Africa
+  stability: '3'
+  battleground: t
+lebanon:
+  id: 62
+  name: Lebanon
+  stability: '1'
+  battleground: f
+syria:
+  id: 63
+  name: Syria
+  stability: '2'
+  battleground: f
+israel:
+  id: 64
+  name: Israel
+  stability: '4'
+  battleground: t
+iraq:
+  id: 65
+  name: Iraq
+  stability: '3'
+  battleground: t
+iran:
+  id: 66
+  name: Iran
+  stability: '2'
+  battleground: t
+libya:
+  id: 67
+  name: Libya
+  stability: '2'
+  battleground: t
+egypt:
+  id: 68
+  name: Egypt
+  stability: '2'
+  battleground: t
+jordan:
+  id: 69
+  name: Jordan
+  stability: '2'
+  battleground: f
+gulf_states:
+  id: 70
+  name: Gulf States
+  stability: '3'
+  battleground: f
+saudi_arabia:
+  id: 71
+  name: Saudi Arabia
+  stability: '3'
+  battleground: t
+north_korea:
+  id: 72
+  name: North Korea
+  stability: '3'
+  battleground: t
+afghanistan:
+  id: 73
+  name: Afghanistan
+  stability: '2'
+  battleground: f
+south korea:
+  id: 74
+  name: South Korea
+  stability: '3'
+  battleground: t
+pakistan:
+  id: 75
+  name: Pakistan
+  stability: '2'
+  battleground: t
+japan:
+  id: 76
+  name: Japan
+  stability: '4'
+  battleground: t
+india:
+  id: 77
+  name: India
+  stability: '3'
+  battleground: t
+taiwan:
+  id: 78
+  name: Taiwan
+  stability: '3'
+  battleground: f
+australia:
+  id: 79
+  name: Australia
+  stability: '4'
+  battleground: f
+burma:
+  id: 80
+  name: Burma
+  stability: '2'
+  battleground: f
+laos_cambodia:
+  id: 81
+  name: Laos/Cambodia
+  stability: '1'
+  battleground: f
+thailand:
+  id: 82
+  name: Thailand
+  stability: '2'
+  battleground: t
+vietnam:
+  id: 83
+  name: Vietnam
+  stability: '1'
+  battleground: f
+philippines:
+  id: 84
+  name: Philippines
+  stability: '2'
+  battleground: f
+malaysia:
+  id: 85
+  name: Malaysia
+  stability: '2'
+  battleground: f
+indonesia:
+  id: 86
+  name: Indonesia
+  stability: '1'
+  battleground: f

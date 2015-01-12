@@ -7,3 +7,346 @@ one:
 two:
   country_id: 
   region_id: 
+
+vicinities_001:
+  country_id: '3'
+  region_id: '1'
+vicinities_002:
+  country_id: '4'
+  region_id: '1'
+vicinities_003:
+  country_id: '5'
+  region_id: '1'
+vicinities_004:
+  country_id: '6'
+  region_id: '1'
+vicinities_005:
+  country_id: '7'
+  region_id: '1'
+vicinities_006:
+  country_id: '8'
+  region_id: '1'
+vicinities_007:
+  country_id: '9'
+  region_id: '1'
+vicinities_008:
+  country_id: '10'
+  region_id: '1'
+vicinities_009:
+  country_id: '11'
+  region_id: '1'
+vicinities_010:
+  country_id: '12'
+  region_id: '1'
+vicinities_011:
+  country_id: '13'
+  region_id: '2'
+vicinities_012:
+  country_id: '14'
+  region_id: '2'
+vicinities_013:
+  country_id: '15'
+  region_id: '2'
+vicinities_014:
+  country_id: '16'
+  region_id: '2'
+vicinities_015:
+  country_id: '17'
+  region_id: '2'
+vicinities_016:
+  country_id: '18'
+  region_id: '2'
+vicinities_017:
+  country_id: '19'
+  region_id: '2'
+vicinities_018:
+  country_id: '20'
+  region_id: '2'
+vicinities_019:
+  country_id: '21'
+  region_id: '2'
+vicinities_020:
+  country_id: '22'
+  region_id: '2'
+vicinities_021:
+  country_id: '23'
+  region_id: '3'
+vicinities_022:
+  country_id: '23'
+  region_id: '4'
+vicinities_023:
+  country_id: '24'
+  region_id: '3'
+vicinities_024:
+  country_id: '24'
+  region_id: '4'
+vicinities_025:
+  country_id: '25'
+  region_id: '3'
+vicinities_026:
+  country_id: '25'
+  region_id: '4'
+vicinities_027:
+  country_id: '26'
+  region_id: '3'
+vicinities_028:
+  country_id: '26'
+  region_id: '4'
+vicinities_029:
+  country_id: '27'
+  region_id: '3'
+vicinities_030:
+  country_id: '27'
+  region_id: '4'
+vicinities_031:
+  country_id: '28'
+  region_id: '3'
+vicinities_032:
+  country_id: '28'
+  region_id: '4'
+vicinities_033:
+  country_id: '29'
+  region_id: '3'
+vicinities_034:
+  country_id: '29'
+  region_id: '4'
+vicinities_035:
+  country_id: '30'
+  region_id: '3'
+vicinities_036:
+  country_id: '30'
+  region_id: '4'
+vicinities_037:
+  country_id: '31'
+  region_id: '3'
+vicinities_038:
+  country_id: '31'
+  region_id: '4'
+vicinities_039:
+  country_id: '32'
+  region_id: '3'
+vicinities_040:
+  country_id: '32'
+  region_id: '4'
+vicinities_041:
+  country_id: '33'
+  region_id: '3'
+vicinities_042:
+  country_id: '33'
+  region_id: '4'
+vicinities_043:
+  country_id: '34'
+  region_id: '3'
+vicinities_044:
+  country_id: '34'
+  region_id: '4'
+vicinities_045:
+  country_id: '35'
+  region_id: '3'
+vicinities_046:
+  country_id: '35'
+  region_id: '4'
+vicinities_047:
+  country_id: '35'
+  region_id: '5'
+vicinities_048:
+  country_id: '36'
+  region_id: '3'
+vicinities_049:
+  country_id: '36'
+  region_id: '4'
+vicinities_050:
+  country_id: '36'
+  region_id: '5'
+vicinities_051:
+  country_id: '37'
+  region_id: '3'
+vicinities_052:
+  country_id: '37'
+  region_id: '5'
+vicinities_053:
+  country_id: '38'
+  region_id: '3'
+vicinities_054:
+  country_id: '38'
+  region_id: '5'
+vicinities_055:
+  country_id: '39'
+  region_id: '3'
+vicinities_056:
+  country_id: '39'
+  region_id: '5'
+vicinities_057:
+  country_id: '40'
+  region_id: '3'
+vicinities_058:
+  country_id: '40'
+  region_id: '5'
+vicinities_059:
+  country_id: '41'
+  region_id: '3'
+vicinities_060:
+  country_id: '41'
+  region_id: '5'
+vicinities_061:
+  country_id: '42'
+  region_id: '3'
+vicinities_062:
+  country_id: '42'
+  region_id: '5'
+vicinities_063:
+  country_id: '43'
+  region_id: '3'
+vicinities_064:
+  country_id: '43'
+  region_id: '5'
+vicinities_065:
+  country_id: '44'
+  region_id: '6'
+vicinities_066:
+  country_id: '45'
+  region_id: '6'
+vicinities_067:
+  country_id: '46'
+  region_id: '6'
+vicinities_068:
+  country_id: '47'
+  region_id: '6'
+vicinities_069:
+  country_id: '48'
+  region_id: '6'
+vicinities_070:
+  country_id: '49'
+  region_id: '6'
+vicinities_071:
+  country_id: '50'
+  region_id: '6'
+vicinities_072:
+  country_id: '51'
+  region_id: '6'
+vicinities_073:
+  country_id: '52'
+  region_id: '6'
+vicinities_074:
+  country_id: '53'
+  region_id: '6'
+vicinities_075:
+  country_id: '54'
+  region_id: '6'
+vicinities_076:
+  country_id: '55'
+  region_id: '6'
+vicinities_077:
+  country_id: '56'
+  region_id: '6'
+vicinities_078:
+  country_id: '57'
+  region_id: '6'
+vicinities_079:
+  country_id: '58'
+  region_id: '6'
+vicinities_080:
+  country_id: '59'
+  region_id: '6'
+vicinities_081:
+  country_id: '60'
+  region_id: '6'
+vicinities_082:
+  country_id: '61'
+  region_id: '6'
+vicinities_083:
+  country_id: '62'
+  region_id: '7'
+vicinities_084:
+  country_id: '63'
+  region_id: '7'
+vicinities_085:
+  country_id: '64'
+  region_id: '7'
+vicinities_086:
+  country_id: '65'
+  region_id: '7'
+vicinities_087:
+  country_id: '66'
+  region_id: '7'
+vicinities_088:
+  country_id: '67'
+  region_id: '7'
+vicinities_089:
+  country_id: '68'
+  region_id: '7'
+vicinities_090:
+  country_id: '69'
+  region_id: '7'
+vicinities_091:
+  country_id: '70'
+  region_id: '7'
+vicinities_092:
+  country_id: '71'
+  region_id: '7'
+vicinities_093:
+  country_id: '72'
+  region_id: '9'
+vicinities_094:
+  country_id: '73'
+  region_id: '9'
+vicinities_095:
+  country_id: '74'
+  region_id: '9'
+vicinities_096:
+  country_id: '75'
+  region_id: '9'
+vicinities_097:
+  country_id: '76'
+  region_id: '9'
+vicinities_098:
+  country_id: '77'
+  region_id: '9'
+vicinities_099:
+  country_id: '78'
+  region_id: '9'
+vicinities_100:
+  country_id: '79'
+  region_id: '9'
+vicinities_101:
+  country_id: '80'
+  region_id: '9'
+vicinities_102:
+  country_id: '80'
+  region_id: '10'
+vicinities_103:
+  country_id: '81'
+  region_id: '9'
+vicinities_104:
+  country_id: '81'
+  region_id: '10'
+vicinities_105:
+  country_id: '82'
+  region_id: '9'
+vicinities_106:
+  country_id: '82'
+  region_id: '10'
+vicinities_107:
+  country_id: '83'
+  region_id: '9'
+vicinities_108:
+  country_id: '83'
+  region_id: '10'
+vicinities_109:
+  country_id: '84'
+  region_id: '9'
+vicinities_110:
+  country_id: '84'
+  region_id: '10'
+vicinities_111:
+  country_id: '85'
+  region_id: '9'
+vicinities_112:
+  country_id: '85'
+  region_id: '10'
+vicinities_113:
+  country_id: '86'
+  region_id: '9'
+vicinities_114:
+  country_id: '86'
+  region_id: '10'

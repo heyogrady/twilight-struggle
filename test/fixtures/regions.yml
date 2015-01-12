@@ -7,3 +7,44 @@ one:
 two:
   name: MyString
   abbr: MyString
+
+central_america:
+  id: 1
+  name: Central America
+  abbr: CA
+south_america:
+  id: 2
+  name: South America
+  abbr: SA
+europe:
+  id: 3
+  name: Europe
+  abbr: EU
+western_europe:
+  id: 4
+  name: Western Europe
+  abbr: WE
+eastern_europe:
+  id: 5
+  name: Eastern Europe
+  abbr: EE
+africa:
+  id: 6
+  name: Africa
+  abbr: AF
+middle_east:
+  id: 7
+  name: Middle East
+  abbr: ME
+central_america:
+  id: 8
+  name: Central America
+  abbr: CA
+asia:
+  id: 9
+  name: Asia
+  abbr: AS
+southeast_asia:
+  id: 10
+  name: Southeast Asia
+  abbr: SE
