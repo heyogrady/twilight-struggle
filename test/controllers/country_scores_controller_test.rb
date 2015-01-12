@@ -1,6 +1,9 @@
-require 'test_helper'
+require "test_helper"
 
 class CountryScoresControllerTest < ActionController::TestCase
+
+  fixtures :country_scores, :games, :countries
+
   setup do
     @country_score = country_scores(:one)
   end
@@ -17,8 +20,10 @@ class CountryScoresControllerTest < ActionController::TestCase
   end
 
   test "should create country_score" do
-    assert_difference('CountryScore.count') do
-      post :create, country_score: { country_id: @country_score.country_id, game_id: @country_score.game_id, us_influence: @country_score.us_influence, ussr_influence: @country_score.ussr_influence }
+    assert_difference("CountryScore.count") do
+      post :create, country_score: { country_id: 3, game_id: 1, us_influence: 3,
+                                     ussr_influence: 4
+                                   }
     end
 
     assert_redirected_to country_score_path(assigns(:country_score))
@@ -35,15 +40,22 @@ class CountryScoresControllerTest < ActionController::TestCase
   end
 
   test "should update country_score" do
-    patch :update, id: @country_score, country_score: { country_id: @country_score.country_id, game_id: @country_score.game_id, us_influence: @country_score.us_influence, ussr_influence: @country_score.ussr_influence }
+    patch :update,
+          id: @country_score,
+          country_score: { country_id: @country_score.country_id,
+                           game_id: @country_score.game_id,
+                           us_influence: @country_score.us_influence,
+                           ussr_influence: @country_score.ussr_influence
+                         }
     assert_redirected_to country_score_path(assigns(:country_score))
   end
 
   test "should destroy country_score" do
-    assert_difference('CountryScore.count', -1) do
+    assert_difference("CountryScore.count", -1) do
       delete :destroy, id: @country_score
     end
 
     assert_redirected_to country_scores_path
   end
+
 end

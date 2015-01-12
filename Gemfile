@@ -50,6 +50,9 @@ gem 'devise-async'
 # collection of handy tools
 gem 'handy'
 
+# dump database records to yaml files
+gem 'yaml_dump', github: 'vanboom/yaml_dump'
+
 
 # FRONT-END
 # -----------------------------------

@@ -3,7 +3,7 @@ class CountryScore < ActiveRecord::Base
   belongs_to :country
   belongs_to :game
 
-  validates :country, :game, presence: true
+  validates :country_id, :game_id, presence: true
 
   def us_controlled?
     us = us_influence

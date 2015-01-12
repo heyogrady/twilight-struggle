@@ -3,14 +3,14 @@
 one:
   us_influence: 1
   ussr_influence: 1
-  country: mexico
+  country: france
   game: patrick_vs_mike
 
 two:
   us_influence: 1
   ussr_influence: 1
-  country_id: 
-  game_id: 
+  country_id: costa_rica
+  game_id: patrick_vs_mike
 
 patrick_vs_mike_mexico:
   game: patrick_vs_mike

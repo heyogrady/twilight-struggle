@@ -27,6 +27,12 @@ GIT
       sprockets-rails (>= 2.0, < 4.0)
       tilt (~> 1.1)
 
+GIT
+  remote: git://github.com/vanboom/yaml_dump.git
+  revision: f0db3f9bf96aa78314ffe56fcece31958122d40c
+  specs:
+    yaml_dump (0.0.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -490,3 +496,4 @@ DEPENDENCIES
   uuidtools
   vcr
   webmock
+  yaml_dump!

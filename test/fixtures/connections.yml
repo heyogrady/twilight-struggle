@@ -11,3 +11,1159 @@ two:
   neighbor_id: 1
   inter_regional: false
   superpower: false
+
+connections_001:
+  country_id: '3'
+  neighbor_id: '5'
+  inter_regional: f
+  superpower: f
+connections_002:
+  country_id: '3'
+  neighbor_id: '1'
+  inter_regional: f
+  superpower: t
+connections_003:
+  country_id: '4'
+  neighbor_id: '8'
+  inter_regional: f
+  superpower: f
+connections_004:
+  country_id: '4'
+  neighbor_id: '9'
+  inter_regional: f
+  superpower: f
+connections_005:
+  country_id: '4'
+  neighbor_id: '1'
+  inter_regional: f
+  superpower: t
+connections_006:
+  country_id: '5'
+  neighbor_id: '3'
+  inter_regional: f
+  superpower: f
+connections_007:
+  country_id: '5'
+  neighbor_id: '6'
+  inter_regional: f
+  superpower: f
+connections_008:
+  country_id: '5'
+  neighbor_id: '7'
+  inter_regional: f
+  superpower: f
+connections_009:
+  country_id: '6'
+  neighbor_id: '5'
+  inter_regional: f
+  superpower: f
+connections_010:
+  country_id: '6'
+  neighbor_id: '7'
+  inter_regional: f
+  superpower: f
+connections_011:
+  country_id: '7'
+  neighbor_id: '5'
+  inter_regional: f
+  superpower: f
+connections_012:
+  country_id: '7'
+  neighbor_id: '6'
+  inter_regional: f
+  superpower: f
+connections_013:
+  country_id: '7'
+  neighbor_id: '11'
+  inter_regional: f
+  superpower: f
+connections_014:
+  country_id: '7'
+  neighbor_id: '8'
+  inter_regional: f
+  superpower: f
+connections_015:
+  country_id: '8'
+  neighbor_id: '4'
+  inter_regional: f
+  superpower: f
+connections_016:
+  country_id: '8'
+  neighbor_id: '7'
+  inter_regional: f
+  superpower: f
+connections_017:
+  country_id: '8'
+  neighbor_id: '11'
+  inter_regional: f
+  superpower: f
+connections_018:
+  country_id: '9'
+  neighbor_id: '4'
+  inter_regional: f
+  superpower: f
+connections_019:
+  country_id: '9'
+  neighbor_id: '10'
+  inter_regional: f
+  superpower: f
+connections_020:
+  country_id: '10'
+  neighbor_id: '9'
+  inter_regional: f
+  superpower: f
+connections_021:
+  country_id: '11'
+  neighbor_id: '12'
+  inter_regional: f
+  superpower: f
+connections_022:
+  country_id: '11'
+  neighbor_id: '8'
+  inter_regional: f
+  superpower: f
+connections_023:
+  country_id: '11'
+  neighbor_id: '7'
+  inter_regional: f
+  superpower: f
+connections_024:
+  country_id: '12'
+  neighbor_id: '11'
+  inter_regional: f
+  superpower: f
+connections_025:
+  country_id: '12'
+  neighbor_id: '15'
+  inter_regional: t
+  superpower: f
+connections_026:
+  country_id: '13'
+  neighbor_id: '15'
+  inter_regional: f
+  superpower: f
+connections_027:
+  country_id: '13'
+  neighbor_id: '17'
+  inter_regional: f
+  superpower: f
+connections_028:
+  country_id: '14'
+  neighbor_id: '15'
+  inter_regional: f
+  superpower: f
+connections_029:
+  country_id: '14'
+  neighbor_id: '16'
+  inter_regional: f
+  superpower: f
+connections_030:
+  country_id: '15'
+  neighbor_id: '13'
+  inter_regional: f
+  superpower: f
+connections_031:
+  country_id: '15'
+  neighbor_id: '14'
+  inter_regional: f
+  superpower: f
+connections_032:
+  country_id: '15'
+  neighbor_id: '12'
+  inter_regional: t
+  superpower: f
+connections_033:
+  country_id: '16'
+  neighbor_id: '14'
+  inter_regional: f
+  superpower: f
+connections_034:
+  country_id: '16'
+  neighbor_id: '18'
+  inter_regional: f
+  superpower: f
+connections_035:
+  country_id: '16'
+  neighbor_id: '19'
+  inter_regional: f
+  superpower: f
+connections_036:
+  country_id: '17'
+  neighbor_id: '13'
+  inter_regional: f
+  superpower: f
+connections_037:
+  country_id: '17'
+  neighbor_id: '22'
+  inter_regional: f
+  superpower: f
+connections_038:
+  country_id: '18'
+  neighbor_id: '16'
+  inter_regional: f
+  superpower: f
+connections_039:
+  country_id: '18'
+  neighbor_id: '22'
+  inter_regional: f
+  superpower: f
+connections_040:
+  country_id: '19'
+  neighbor_id: '16'
+  inter_regional: f
+  superpower: f
+connections_041:
+  country_id: '19'
+  neighbor_id: '21'
+  inter_regional: f
+  superpower: f
+connections_042:
+  country_id: '20'
+  neighbor_id: '18'
+  inter_regional: f
+  superpower: f
+connections_043:
+  country_id: '20'
+  neighbor_id: '22'
+  inter_regional: f
+  superpower: f
+connections_044:
+  country_id: '20'
+  neighbor_id: '21'
+  inter_regional: f
+  superpower: f
+connections_045:
+  country_id: '21'
+  neighbor_id: '19'
+  inter_regional: f
+  superpower: f
+connections_046:
+  country_id: '21'
+  neighbor_id: '20'
+  inter_regional: f
+  superpower: f
+connections_047:
+  country_id: '21'
+  neighbor_id: '22'
+  inter_regional: f
+  superpower: f
+connections_048:
+  country_id: '22'
+  neighbor_id: '21'
+  inter_regional: f
+  superpower: f
+connections_049:
+  country_id: '22'
+  neighbor_id: '20'
+  inter_regional: f
+  superpower: f
+connections_050:
+  country_id: '22'
+  neighbor_id: '17'
+  inter_regional: f
+  superpower: f
+connections_051:
+  country_id: '23'
+  neighbor_id: '26'
+  inter_regional: f
+  superpower: f
+connections_052:
+  country_id: '23'
+  neighbor_id: '25'
+  inter_regional: f
+  superpower: f
+connections_053:
+  country_id: '24'
+  neighbor_id: '25'
+  inter_regional: f
+  superpower: f
+connections_054:
+  country_id: '24'
+  neighbor_id: '29'
+  inter_regional: f
+  superpower: f
+connections_055:
+  country_id: '25'
+  neighbor_id: '23'
+  inter_regional: f
+  superpower: f
+connections_056:
+  country_id: '25'
+  neighbor_id: '24'
+  inter_regional: f
+  superpower: f
+connections_057:
+  country_id: '25'
+  neighbor_id: '35'
+  inter_regional: f
+  superpower: f
+connections_058:
+  country_id: '26'
+  neighbor_id: '23'
+  inter_regional: f
+  superpower: f
+connections_059:
+  country_id: '26'
+  neighbor_id: '30'
+  inter_regional: f
+  superpower: f
+connections_060:
+  country_id: '26'
+  neighbor_id: '27'
+  inter_regional: f
+  superpower: f
+connections_061:
+  country_id: '26'
+  neighbor_id: '28'
+  inter_regional: f
+  superpower: f
+connections_062:
+  country_id: '27'
+  neighbor_id: '26'
+  inter_regional: f
+  superpower: f
+connections_063:
+  country_id: '27'
+  neighbor_id: '1'
+  inter_regional: f
+  superpower: t
+connections_064:
+  country_id: '28'
+  neighbor_id: '26'
+  inter_regional: f
+  superpower: f
+connections_065:
+  country_id: '28'
+  neighbor_id: '29'
+  inter_regional: f
+  superpower: f
+connections_066:
+  country_id: '29'
+  neighbor_id: '24'
+  inter_regional: f
+  superpower: f
+connections_067:
+  country_id: '29'
+  neighbor_id: '28'
+  inter_regional: f
+  superpower: f
+connections_068:
+  country_id: '29'
+  neighbor_id: '30'
+  inter_regional: f
+  superpower: f
+connections_069:
+  country_id: '29'
+  neighbor_id: '37'
+  inter_regional: f
+  superpower: f
+connections_070:
+  country_id: '30'
+  neighbor_id: '26'
+  inter_regional: f
+  superpower: f
+connections_071:
+  country_id: '30'
+  neighbor_id: '29'
+  inter_regional: f
+  superpower: f
+connections_072:
+  country_id: '30'
+  neighbor_id: '31'
+  inter_regional: f
+  superpower: f
+connections_073:
+  country_id: '30'
+  neighbor_id: '45'
+  inter_regional: t
+  superpower: f
+connections_074:
+  country_id: '30'
+  neighbor_id: '32'
+  inter_regional: f
+  superpower: f
+connections_075:
+  country_id: '31'
+  neighbor_id: '30'
+  inter_regional: f
+  superpower: f
+connections_076:
+  country_id: '31'
+  neighbor_id: '32'
+  inter_regional: f
+  superpower: f
+connections_077:
+  country_id: '31'
+  neighbor_id: '44'
+  inter_regional: t
+  superpower: f
+connections_078:
+  country_id: '32'
+  neighbor_id: '30'
+  inter_regional: f
+  superpower: f
+connections_079:
+  country_id: '32'
+  neighbor_id: '36'
+  inter_regional: f
+  superpower: f
+connections_080:
+  country_id: '32'
+  neighbor_id: '42'
+  inter_regional: f
+  superpower: f
+connections_081:
+  country_id: '32'
+  neighbor_id: '34'
+  inter_regional: f
+  superpower: f
+connections_082:
+  country_id: '32'
+  neighbor_id: '31'
+  inter_regional: f
+  superpower: f
+connections_083:
+  country_id: '33'
+  neighbor_id: '41'
+  inter_regional: f
+  superpower: f
+connections_084:
+  country_id: '33'
+  neighbor_id: '43'
+  inter_regional: f
+  superpower: f
+connections_085:
+  country_id: '33'
+  neighbor_id: '34'
+  inter_regional: f
+  superpower: f
+connections_086:
+  country_id: '33'
+  neighbor_id: '63'
+  inter_regional: t
+  superpower: f
+connections_087:
+  country_id: '34'
+  neighbor_id: '32'
+  inter_regional: f
+  superpower: f
+connections_088:
+  country_id: '34'
+  neighbor_id: '42'
+  inter_regional: f
+  superpower: f
+connections_089:
+  country_id: '34'
+  neighbor_id: '43'
+  inter_regional: f
+  superpower: f
+connections_090:
+  country_id: '34'
+  neighbor_id: '33'
+  inter_regional: f
+  superpower: f
+connections_091:
+  country_id: '35'
+  neighbor_id: '25'
+  inter_regional: f
+  superpower: f
+connections_092:
+  country_id: '35'
+  neighbor_id: '2'
+  inter_regional: f
+  superpower: t
+connections_093:
+  country_id: '36'
+  neighbor_id: '29'
+  inter_regional: f
+  superpower: f
+connections_094:
+  country_id: '36'
+  neighbor_id: '37'
+  inter_regional: f
+  superpower: f
+connections_095:
+  country_id: '36'
+  neighbor_id: '40'
+  inter_regional: f
+  superpower: f
+connections_096:
+  country_id: '36'
+  neighbor_id: '32'
+  inter_regional: f
+  superpower: f
+connections_097:
+  country_id: '37'
+  neighbor_id: '38'
+  inter_regional: f
+  superpower: f
+connections_098:
+  country_id: '37'
+  neighbor_id: '39'
+  inter_regional: f
+  superpower: f
+connections_099:
+  country_id: '37'
+  neighbor_id: '36'
+  inter_regional: f
+  superpower: f
+connections_100:
+  country_id: '37'
+  neighbor_id: '29'
+  inter_regional: f
+  superpower: f
+connections_101:
+  country_id: '38'
+  neighbor_id: '39'
+  inter_regional: f
+  superpower: f
+connections_102:
+  country_id: '38'
+  neighbor_id: '37'
+  inter_regional: f
+  superpower: f
+connections_103:
+  country_id: '38'
+  neighbor_id: '2'
+  inter_regional: f
+  superpower: t
+connections_104:
+  country_id: '39'
+  neighbor_id: '37'
+  inter_regional: f
+  superpower: f
+connections_105:
+  country_id: '39'
+  neighbor_id: '38'
+  inter_regional: f
+  superpower: f
+connections_106:
+  country_id: '39'
+  neighbor_id: '40'
+  inter_regional: f
+  superpower: f
+connections_107:
+  country_id: '40'
+  neighbor_id: '36'
+  inter_regional: f
+  superpower: f
+connections_108:
+  country_id: '40'
+  neighbor_id: '39'
+  inter_regional: f
+  superpower: f
+connections_109:
+  country_id: '40'
+  neighbor_id: '42'
+  inter_regional: f
+  superpower: f
+connections_110:
+  country_id: '40'
+  neighbor_id: '41'
+  inter_regional: f
+  superpower: f
+connections_111:
+  country_id: '41'
+  neighbor_id: '33'
+  inter_regional: f
+  superpower: f
+connections_112:
+  country_id: '41'
+  neighbor_id: '42'
+  inter_regional: f
+  superpower: f
+connections_113:
+  country_id: '41'
+  neighbor_id: '40'
+  inter_regional: f
+  superpower: f
+connections_114:
+  country_id: '41'
+  neighbor_id: '2'
+  inter_regional: f
+  superpower: t
+connections_115:
+  country_id: '42'
+  neighbor_id: '40'
+  inter_regional: f
+  superpower: f
+connections_116:
+  country_id: '42'
+  neighbor_id: '41'
+  inter_regional: f
+  superpower: f
+connections_117:
+  country_id: '42'
+  neighbor_id: '34'
+  inter_regional: f
+  superpower: f
+connections_118:
+  country_id: '42'
+  neighbor_id: '32'
+  inter_regional: f
+  superpower: f
+connections_119:
+  country_id: '43'
+  neighbor_id: '33'
+  inter_regional: f
+  superpower: f
+connections_120:
+  country_id: '43'
+  neighbor_id: '34'
+  inter_regional: f
+  superpower: f
+connections_121:
+  country_id: '44'
+  neighbor_id: '31'
+  inter_regional: t
+  superpower: f
+connections_122:
+  country_id: '44'
+  neighbor_id: '45'
+  inter_regional: f
+  superpower: f
+connections_123:
+  country_id: '44'
+  neighbor_id: '47'
+  inter_regional: f
+  superpower: f
+connections_124:
+  country_id: '45'
+  neighbor_id: '30'
+  inter_regional: t
+  superpower: f
+connections_125:
+  country_id: '45'
+  neighbor_id: '44'
+  inter_regional: f
+  superpower: f
+connections_126:
+  country_id: '45'
+  neighbor_id: '48'
+  inter_regional: f
+  superpower: f
+connections_127:
+  country_id: '45'
+  neighbor_id: '46'
+  inter_regional: f
+  superpower: f
+connections_128:
+  country_id: '46'
+  neighbor_id: '45'
+  inter_regional: f
+  superpower: f
+connections_129:
+  country_id: '46'
+  neighbor_id: '67'
+  inter_regional: t
+  superpower: f
+connections_130:
+  country_id: '47'
+  neighbor_id: '44'
+  inter_regional: f
+  superpower: f
+connections_131:
+  country_id: '47'
+  neighbor_id: '50'
+  inter_regional: f
+  superpower: f
+connections_132:
+  country_id: '48'
+  neighbor_id: '45'
+  inter_regional: f
+  superpower: f
+connections_133:
+  country_id: '48'
+  neighbor_id: '51'
+  inter_regional: f
+  superpower: f
+connections_134:
+  country_id: '49'
+  neighbor_id: '68'
+  inter_regional: t
+  superpower: f
+connections_135:
+  country_id: '49'
+  neighbor_id: '52'
+  inter_regional: f
+  superpower: f
+connections_136:
+  country_id: '50'
+  neighbor_id: '47'
+  inter_regional: f
+  superpower: f
+connections_137:
+  country_id: '50'
+  neighbor_id: '51'
+  inter_regional: f
+  superpower: f
+connections_138:
+  country_id: '51'
+  neighbor_id: '48'
+  inter_regional: f
+  superpower: f
+connections_139:
+  country_id: '51'
+  neighbor_id: '50'
+  inter_regional: f
+  superpower: f
+connections_140:
+  country_id: '51'
+  neighbor_id: '53'
+  inter_regional: f
+  superpower: f
+connections_141:
+  country_id: '52'
+  neighbor_id: '49'
+  inter_regional: f
+  superpower: f
+connections_142:
+  country_id: '52'
+  neighbor_id: '56'
+  inter_regional: f
+  superpower: f
+connections_143:
+  country_id: '53'
+  neighbor_id: '51'
+  inter_regional: f
+  superpower: f
+connections_144:
+  country_id: '53'
+  neighbor_id: '54'
+  inter_regional: f
+  superpower: f
+connections_145:
+  country_id: '54'
+  neighbor_id: '53'
+  inter_regional: f
+  superpower: f
+connections_146:
+  country_id: '54'
+  neighbor_id: '57'
+  inter_regional: f
+  superpower: f
+connections_147:
+  country_id: '54'
+  neighbor_id: '58'
+  inter_regional: f
+  superpower: f
+connections_148:
+  country_id: '55'
+  neighbor_id: '56'
+  inter_regional: f
+  superpower: f
+connections_149:
+  country_id: '55'
+  neighbor_id: '59'
+  inter_regional: f
+  superpower: f
+connections_150:
+  country_id: '56'
+  neighbor_id: '52'
+  inter_regional: f
+  superpower: f
+connections_151:
+  country_id: '56'
+  neighbor_id: '55'
+  inter_regional: f
+  superpower: f
+connections_152:
+  country_id: '57'
+  neighbor_id: '54'
+  inter_regional: f
+  superpower: f
+connections_153:
+  country_id: '57'
+  neighbor_id: '60'
+  inter_regional: f
+  superpower: f
+connections_154:
+  country_id: '57'
+  neighbor_id: '61'
+  inter_regional: f
+  superpower: f
+connections_155:
+  country_id: '58'
+  neighbor_id: '54'
+  inter_regional: f
+  superpower: f
+connections_156:
+  country_id: '58'
+  neighbor_id: '60'
+  inter_regional: f
+  superpower: f
+connections_157:
+  country_id: '59'
+  neighbor_id: '55'
+  inter_regional: f
+  superpower: f
+connections_158:
+  country_id: '59'
+  neighbor_id: '58'
+  inter_regional: f
+  superpower: f
+connections_159:
+  country_id: '60'
+  neighbor_id: '58'
+  inter_regional: f
+  superpower: f
+connections_160:
+  country_id: '60'
+  neighbor_id: '57'
+  inter_regional: f
+  superpower: f
+connections_161:
+  country_id: '60'
+  neighbor_id: '61'
+  inter_regional: f
+  superpower: f
+connections_162:
+  country_id: '61'
+  neighbor_id: '57'
+  inter_regional: f
+  superpower: f
+connections_163:
+  country_id: '61'
+  neighbor_id: '60'
+  inter_regional: f
+  superpower: f
+connections_164:
+  country_id: '62'
+  neighbor_id: '64'
+  inter_regional: f
+  superpower: f
+connections_165:
+  country_id: '62'
+  neighbor_id: '69'
+  inter_regional: f
+  superpower: f
+connections_166:
+  country_id: '62'
+  neighbor_id: '63'
+  inter_regional: f
+  superpower: f
+connections_167:
+  country_id: '63'
+  neighbor_id: '64'
+  inter_regional: f
+  superpower: f
+connections_168:
+  country_id: '63'
+  neighbor_id: '62'
+  inter_regional: f
+  superpower: f
+connections_169:
+  country_id: '63'
+  neighbor_id: '33'
+  inter_regional: t
+  superpower: f
+connections_170:
+  country_id: '64'
+  neighbor_id: '68'
+  inter_regional: f
+  superpower: f
+connections_171:
+  country_id: '64'
+  neighbor_id: '69'
+  inter_regional: f
+  superpower: f
+connections_172:
+  country_id: '64'
+  neighbor_id: '63'
+  inter_regional: f
+  superpower: f
+connections_173:
+  country_id: '64'
+  neighbor_id: '62'
+  inter_regional: f
+  superpower: f
+connections_174:
+  country_id: '65'
+  neighbor_id: '66'
+  inter_regional: f
+  superpower: f
+connections_175:
+  country_id: '65'
+  neighbor_id: '70'
+  inter_regional: f
+  superpower: f
+connections_176:
+  country_id: '65'
+  neighbor_id: '71'
+  inter_regional: f
+  superpower: f
+connections_177:
+  country_id: '65'
+  neighbor_id: '62'
+  inter_regional: f
+  superpower: f
+connections_178:
+  country_id: '66'
+  neighbor_id: '73'
+  inter_regional: t
+  superpower: f
+connections_179:
+  country_id: '66'
+  neighbor_id: '75'
+  inter_regional: t
+  superpower: f
+connections_180:
+  country_id: '66'
+  neighbor_id: '65'
+  inter_regional: f
+  superpower: f
+connections_181:
+  country_id: '67'
+  neighbor_id: '68'
+  inter_regional: f
+  superpower: f
+connections_182:
+  country_id: '67'
+  neighbor_id: '46'
+  inter_regional: t
+  superpower: f
+connections_183:
+  country_id: '68'
+  neighbor_id: '64'
+  inter_regional: f
+  superpower: f
+connections_184:
+  country_id: '68'
+  neighbor_id: '49'
+  inter_regional: t
+  superpower: f
+connections_185:
+  country_id: '68'
+  neighbor_id: '46'
+  inter_regional: f
+  superpower: f
+connections_186:
+  country_id: '69'
+  neighbor_id: '71'
+  inter_regional: f
+  superpower: f
+connections_187:
+  country_id: '69'
+  neighbor_id: '65'
+  inter_regional: f
+  superpower: f
+connections_188:
+  country_id: '69'
+  neighbor_id: '62'
+  inter_regional: f
+  superpower: f
+connections_189:
+  country_id: '69'
+  neighbor_id: '64'
+  inter_regional: f
+  superpower: f
+connections_190:
+  country_id: '70'
+  neighbor_id: '65'
+  inter_regional: f
+  superpower: f
+connections_191:
+  country_id: '70'
+  neighbor_id: '71'
+  inter_regional: f
+  superpower: f
+connections_192:
+  country_id: '71'
+  neighbor_id: '70'
+  inter_regional: f
+  superpower: f
+connections_193:
+  country_id: '71'
+  neighbor_id: '65'
+  inter_regional: f
+  superpower: f
+connections_194:
+  country_id: '71'
+  neighbor_id: '69'
+  inter_regional: f
+  superpower: f
+connections_195:
+  country_id: '72'
+  neighbor_id: '74'
+  inter_regional: f
+  superpower: f
+connections_196:
+  country_id: '72'
+  neighbor_id: '2'
+  inter_regional: f
+  superpower: t
+connections_197:
+  country_id: '73'
+  neighbor_id: '66'
+  inter_regional: t
+  superpower: f
+connections_198:
+  country_id: '73'
+  neighbor_id: '75'
+  inter_regional: f
+  superpower: f
+connections_199:
+  country_id: '73'
+  neighbor_id: '2'
+  inter_regional: f
+  superpower: t
+connections_200:
+  country_id: '74'
+  neighbor_id: '72'
+  inter_regional: f
+  superpower: f
+connections_201:
+  country_id: '74'
+  neighbor_id: '76'
+  inter_regional: f
+  superpower: f
+connections_202:
+  country_id: '74'
+  neighbor_id: '78'
+  inter_regional: f
+  superpower: f
+connections_203:
+  country_id: '75'
+  neighbor_id: '77'
+  inter_regional: f
+  superpower: f
+connections_204:
+  country_id: '75'
+  neighbor_id: '73'
+  inter_regional: f
+  superpower: f
+connections_205:
+  country_id: '75'
+  neighbor_id: '66'
+  inter_regional: t
+  superpower: f
+connections_206:
+  country_id: '76'
+  neighbor_id: '84'
+  inter_regional: f
+  superpower: f
+connections_207:
+  country_id: '76'
+  neighbor_id: '78'
+  inter_regional: f
+  superpower: f
+connections_208:
+  country_id: '76'
+  neighbor_id: '74'
+  inter_regional: f
+  superpower: f
+connections_209:
+  country_id: '76'
+  neighbor_id: '1'
+  inter_regional: f
+  superpower: t
+connections_210:
+  country_id: '77'
+  neighbor_id: '80'
+  inter_regional: f
+  superpower: f
+connections_211:
+  country_id: '77'
+  neighbor_id: '75'
+  inter_regional: f
+  superpower: f
+connections_212:
+  country_id: '78'
+  neighbor_id: '74'
+  inter_regional: f
+  superpower: f
+connections_213:
+  country_id: '78'
+  neighbor_id: '76'
+  inter_regional: f
+  superpower: f
+connections_214:
+  country_id: '79'
+  neighbor_id: '85'
+  inter_regional: f
+  superpower: f
+connections_215:
+  country_id: '80'
+  neighbor_id: '81'
+  inter_regional: f
+  superpower: f
+connections_216:
+  country_id: '80'
+  neighbor_id: '77'
+  inter_regional: f
+  superpower: f
+connections_217:
+  country_id: '81'
+  neighbor_id: '80'
+  inter_regional: f
+  superpower: f
+connections_218:
+  country_id: '81'
+  neighbor_id: '83'
+  inter_regional: f
+  superpower: f
+connections_219:
+  country_id: '81'
+  neighbor_id: '82'
+  inter_regional: f
+  superpower: f
+connections_220:
+  country_id: '82'
+  neighbor_id: '85'
+  inter_regional: f
+  superpower: f
+connections_221:
+  country_id: '82'
+  neighbor_id: '83'
+  inter_regional: f
+  superpower: f
+connections_222:
+  country_id: '82'
+  neighbor_id: '81'
+  inter_regional: f
+  superpower: f
+connections_223:
+  country_id: '83'
+  neighbor_id: '82'
+  inter_regional: f
+  superpower: f
+connections_224:
+  country_id: '83'
+  neighbor_id: '81'
+  inter_regional: f
+  superpower: f
+connections_225:
+  country_id: '84'
+  neighbor_id: '76'
+  inter_regional: f
+  superpower: f
+connections_226:
+  country_id: '84'
+  neighbor_id: '86'
+  inter_regional: f
+  superpower: f
+connections_227:
+  country_id: '85'
+  neighbor_id: '79'
+  inter_regional: f
+  superpower: f
+connections_228:
+  country_id: '85'
+  neighbor_id: '86'
+  inter_regional: f
+  superpower: f
+connections_229:
+  country_id: '85'
+  neighbor_id: '82'
+  inter_regional: f
+  superpower: f
+connections_230:
+  country_id: '86'
+  neighbor_id: '84'
+  inter_regional: f
+  superpower: f
+connections_231:
+  country_id: '86'
+  neighbor_id: '85'
+  inter_regional: f
+  superpower: f
