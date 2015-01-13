@@ -1,0 +1,35 @@
+%h1 Listing trackers
+
+%table
+  %thead
+    %tr
+      %th Defcon status
+      %th Victory points
+      %th Action round
+      %th Turn
+      %th Us military ops
+      %th Ussr military ops
+      %th Us space race
+      %th Ussr space race
+      %th
+      %th
+      %th
+      
+  %tbody
+    - @trackers.each do |tracker|
+      %tr
+        %td= tracker.defcon_status
+        %td= tracker.victory_points
+        %td= tracker.action_round
+        %td= tracker.turn
+        %td= tracker.us_military_ops
+        %td= tracker.ussr_military_ops
+        %td= tracker.us_space_race
+        %td= tracker.ussr_space_race
+        %td= link_to 'Show', tracker
+        %td= link_to 'Edit', edit_tracker_path(tracker)
+        %td= link_to 'Destroy', tracker, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Tracker', new_tracker_path

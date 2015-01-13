@@ -1,0 +1,30 @@
+%p#notice= notice
+
+%p
+  %b Defcon status:
+  = @tracker.defcon_status
+%p
+  %b Victory points:
+  = @tracker.victory_points
+%p
+  %b Action round:
+  = @tracker.action_round
+%p
+  %b Turn:
+  = @tracker.turn
+%p
+  %b Us military ops:
+  = @tracker.us_military_ops
+%p
+  %b Ussr military ops:
+  = @tracker.ussr_military_ops
+%p
+  %b Us space race:
+  = @tracker.us_space_race
+%p
+  %b Ussr space race:
+  = @tracker.ussr_space_race
+
+= link_to 'Edit', edit_tracker_path(@tracker)
+\|
+= link_to 'Back', trackers_path
