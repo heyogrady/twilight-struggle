@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150111212335) do
+ActiveRecord::Schema.define(version: 20150113144428) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -91,6 +91,22 @@ ActiveRecord::Schema.define(version: 20150111212335) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "trackers", force: true do |t|
+    t.integer  "defcon_status",     default: 5
+    t.integer  "victory_points",    default: 0
+    t.integer  "action_round",      default: 0
+    t.integer  "turn",              default: 0
+    t.integer  "us_military_ops",   default: 0
+    t.integer  "ussr_military_ops", default: 0
+    t.integer  "us_space_race",     default: 0
+    t.integer  "ussr_space_race",   default: 0
+    t.integer  "game_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "trackers", ["game_id"], name: "index_trackers_on_game_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "",         null: false

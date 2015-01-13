@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  defcon_status: 1
+  victory_points: 1
+  action_round: 1
+  turn: 1
+  us_military_ops: 1
+  ussr_military_ops: 1
+  us_space_race: 1
+  ussr_space_race: 1
+
+two:
+  defcon_status: 1
+  victory_points: 1
+  action_round: 1
+  turn: 1
+  us_military_ops: 1
+  ussr_military_ops: 1
+  us_space_race: 1
+  ussr_space_race: 1
