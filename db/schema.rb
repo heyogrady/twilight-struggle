@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150113144428) do
+ActiveRecord::Schema.define(version: 20150114031549) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,22 @@ ActiveRecord::Schema.define(version: 20150113144428) do
   add_index "active_admin_comments", ["author_type", "author_id"], name: "index_active_admin_comments_on_author_type_and_author_id", using: :btree
   add_index "active_admin_comments", ["namespace"], name: "index_active_admin_comments_on_namespace", using: :btree
   add_index "active_admin_comments", ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id", using: :btree
+
+  create_table "cards", force: true do |t|
+    t.string   "name"
+    t.string   "title"
+    t.text     "description"
+    t.string   "phase"
+    t.integer  "ops_points",            default: 0
+    t.boolean  "remove_after_event",    default: false
+    t.boolean  "display_after_event",   default: false
+    t.string   "side",                  default: "both"
+    t.boolean  "prevent_in_headline",   default: false
+    t.boolean  "always_evaluate_first", default: false
+    t.integer  "card_number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "connections", force: true do |t|
     t.integer  "country_id"
