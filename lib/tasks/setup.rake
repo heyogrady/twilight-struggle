@@ -1054,6 +1054,920 @@ task setup_sample_data: [:environment, :not_production] do
       ])
   end
 
+  Card.transaction do
+    create_card(name: "AsiaScoring",
+                card_number: 1,
+                title: "Asia Scoring",
+                description: "",
+                phase: :early,
+                ops_points: 0,
+                side: nil
+               )
+    create_card(name: "EuropeScoring",
+                card_number: 2,
+                title: "Europe Scoring",
+                description: "",
+                phase: :early,
+                ops_points: 0,
+                side: nil
+               )
+    create_card(name: "MiddleEastScoring",
+                card_number: 3,
+                title: "Middle East Scoring",
+                description: "",
+                phase: :early,
+                ops_points: 0,
+                side: nil
+               )
+    create_card(name: "DuckAndCover",
+                card_number: 4,
+                title: "Duck and Cover",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "US"
+               )
+    create_card(name: "FiveYearPlan",
+                card_number: 5,
+                title: "Five Year Plan",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "US"
+               )
+    create_card(name: "TheChinaCard",
+                card_number: 6,
+                title: "The China Card",
+                description: "",
+                phase: :early,
+                ops_points: 4,
+                side: nil
+               )
+    create_card(name: "SocialistGovernments",
+                card_number: 7,
+                title: "Socialist Governments",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "USSR"
+               )
+    create_card(name: "Fidel",
+                card_number: 8,
+                title: "Fidel",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "VietnamRevolts",
+                card_number: 9,
+                title: "Vietnam Revolts",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "Blockade",
+                card_number: 10,
+                title: "Blockade",
+                description: "",
+                phase: :early,
+                ops_points: 1,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "KoreanWar",
+                card_number: 11,
+                title: "Korean War",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "RomanianAbdication",
+                card_number: 12,
+                title: "Romanian Abdication",
+                description: "",
+                phase: :early,
+                ops_points: 1,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "ArabIsraeliWar",
+                card_number: 13,
+                title: "Arab-Israeli War",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "USSR"
+               )
+    create_card(name: "Comecon",
+                card_number: 14,
+                title: "Comecon",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "Nasser",
+                card_number: 15,
+                title: "Nasser",
+                description: "",
+                phase: :early,
+                ops_points: 1,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "WarsawPactFormed",
+                card_number: 16,
+                title: "Warsaw Pact Formed",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "DeGaulleLeadsFrance",
+                card_number: 17,
+                title: "De Gaulle Leads France",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "CapturedNaziScientist",
+                card_number: 18,
+                title: "Captured Nazi Scientist",
+                description: "",
+                phase: :early,
+                ops_points: 1,
+                side: nil,
+                remove_after_event: true
+               )
+    create_card(name: "TrumanDoctrine",
+                card_number: 19,
+                title: "Truman Doctrine",
+                description: "",
+                phase: :early,
+                ops_points: 1,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "OlympicGames",
+                card_number: 20,
+                title: "Olympic Games",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: nil
+               )
+    create_card(name: "Nato",
+                card_number: 21,
+                title: "NATO",
+                description: "",
+                phase: :early,
+                ops_points: 4,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "IndependentReds",
+                card_number: 22,
+                title: "Independent Reds",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "MarshallPlan",
+                card_number: 23,
+                title: "Marshall Plan",
+                description: "",
+                phase: :early,
+                ops_points: 4,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "IndoPakistaniWar",
+                card_number: 24,
+                title: "Indo-Pakistani War",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: nil
+               )
+    create_card(name: "Containment",
+                card_number: 25,
+                title: "Containment",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "CiaCreated",
+                card_number: 26,
+                title: "CIA Created",
+                description: "",
+                phase: :early,
+                ops_points: 1,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "UsJapanMutualDefensePact",
+                card_number: 27,
+                title: "US/Japan Mutual Defense Pact",
+                description: "",
+                phase: :early,
+                ops_points: 4,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "SuezCrisis",
+                card_number: 28,
+                title: "Suez Crisis",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "EastEuropeanUnrest",
+                card_number: 29,
+                title: "East European Unrest",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "US"
+               )
+    create_card(name: "Decolonization",
+                card_number: 30,
+                title: "Decolonization",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "USSR"
+               )
+    create_card(name: "RedScarePurge",
+                card_number: 31,
+                title: "Red Scare/Purge",
+                description: "",
+                phase: :early,
+                ops_points: 4,
+                side: nil
+               )
+    create_card(name: "UnIntervention",
+                card_number: 32,
+                title: "UN Intervention",
+                description: "",
+                phase: :early,
+                ops_points: 1,
+                side: nil,
+                prevent_in_headline: true
+               )
+    create_card(name: "DeStalinization",
+                card_number: 33,
+                title: "De-Stalinization",
+                description: "",
+                phase: :early,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "NuclearTestBan",
+                card_number: 34,
+                title: "Nuclear Test Ban",
+                description: "",
+                phase: :early,
+                ops_points: 4,
+                side: nil
+               )
+    create_card(name: "FormosanResolution",
+                card_number: 35,
+                title: "Formosan Resolution",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "Defectors",
+                card_number: 103,
+                title: "Defectors",
+                description: "",
+                phase: :early,
+                ops_points: 2,
+                side: "US",
+                always_evaluate_first: true # for headlines only
+               )
+    create_card(name: "BrushWar",
+                card_number: 36,
+                title: "Brush War",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: nil
+               )
+    create_card(name: "CentralAmericaScoring",
+                card_number: 37,
+                title: "Central America Scoring",
+                description: "",
+                phase: :mid,
+                ops_points: 0,
+                side: nil
+               )
+    create_card(name: "SoutheastAsiaScoring",
+                card_number: 38,
+                title: "Southeast Asia Scoring",
+                description: "",
+                phase: :mid,
+                ops_points: 0,
+                side: nil,
+                remove_after_event: true
+               )
+    create_card(name: "ArmsRace",
+                card_number: 39,
+                title: "Arms Race",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: nil
+               )
+    create_card(name: "CubanMissileCrisis",
+                card_number: 40,
+                title: "Cuban Missile Crisis",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: nil,
+                remove_after_event: true
+               )
+    create_card(name: "NuclearSubs",
+                card_number: 41,
+                title: "Nuclear Subs",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "Quagmire",
+                card_number: 42,
+                title: "Quagmire",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "SaltNegotiations",
+                card_number: 43,
+                title: "SALT Negotiations",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: nil,
+                remove_after_event: true
+               )
+    create_card(name: "BearTrap",
+                card_number: 44,
+                title: "Bear Trap",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "Summit",
+                card_number: 45,
+                title: "Summit",
+                description: "",
+                phase: :mid,
+                ops_points: 1,
+                side: nil
+               )
+    create_card(name: "HowILearnedToStopWorrying",
+                card_number: 46,
+                title: "How I Learned to Stop Worrying",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: nil,
+                remove_after_event: true
+               )
+    create_card(name: "Junta",
+                card_number: 47,
+                title: "Junta",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: nil
+               )
+    create_card(name: "KitchenDebates",
+                card_number: 48,
+                title: "Kitchen Debates",
+                description: "",
+                phase: :mid,
+                ops_points: 1,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "MissileEnvy",
+                card_number: 49,
+                title: "Missile Envy",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: nil
+               )
+    create_card(name: "WeWillBuryYou",
+                card_number: 50,
+                title: "“We Will Bury You”",
+                description: "",
+                phase: :mid,
+                ops_points: 4,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "BrezhnevDoctrine",
+                card_number: 51,
+                title: "Brezhnev Doctrine",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "PortugueseEmpireCrumbles",
+                card_number: 52,
+                title: "Portuguese Empire Crumbles",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "SouthAfricanUnrest",
+                card_number: 53,
+                title: "South African Unrest",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "USSR"
+               )
+    create_card(name: "Allende",
+                card_number: 54,
+                title: "Allende",
+                description: "",
+                phase: :mid,
+                ops_points: 1,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "WillyBrandt",
+                card_number: 55,
+                title: "Willy Brandt",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "MuslimRevolution",
+                card_number: 56,
+                title: "Muslim Revolution",
+                description: "",
+                phase: :mid,
+                ops_points: 4,
+                side: "USSR"
+               )
+    create_card(name: "AbmTreaty",
+                card_number: 57,
+                title: "ABM Treaty",
+                description: "",
+                phase: :mid,
+                ops_points: 4,
+                side: nil
+               )
+    create_card(name: "CulturalRevolution",
+                card_number: 58,
+                title: "Cultural Revolution",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "FlowerPower",
+                card_number: 59,
+                title: "Flower Power",
+                description: "",
+                phase: :mid,
+                ops_points: 4,
+                side: "USSR",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "U2Incident",
+                card_number: 60,
+                title: "U2 Incident",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "Opec",
+                card_number: 61,
+                title: "OPEC",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "USSR"
+               )
+    create_card(name: "LoneGunman",
+                card_number: 62,
+                title: "“Lone Gunman”",
+                description: "",
+                phase: :mid,
+                ops_points: 1,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "ColonialRearGuards",
+                card_number: 63,
+                title: "Colonial Rear Guards",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US"
+               )
+    create_card(name: "PanamaCanalReturned",
+                card_number: 64,
+                title: "Panama Canal Returned",
+                description: "",
+                phase: :mid,
+                ops_points: 1,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "CampDavidAccords",
+                card_number: 65,
+                title: "Camp David Accords",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "PuppetGovernments",
+                card_number: 66,
+                title: "Puppet Governments",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "GrainSalesToSoviets",
+                card_number: 67,
+                title: "Grain Sales to Soviets",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US"
+               )
+    create_card(name: "JohnPaulIiElectedPope",
+                card_number: 68,
+                title: "John Paul II Elected Pope",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "LatinAmericanDeathSquads",
+                card_number: 69,
+                title: "Latin American Death Squads",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: nil
+               )
+    create_card(name: "OasFounded",
+                card_number: 70,
+                title: "OAS Founded",
+                description: "",
+                phase: :mid,
+                ops_points: 1,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "NixonPlaysTheChinaCard",
+                card_number: 71,
+                title: "Nixon Plays the China Card",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "SadatExpelsSoviets",
+                card_number: 72,
+                title: "Sadat Expels Soviets",
+                description: "",
+                phase: :mid,
+                ops_points: 1,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "ShuttleDiplomacy",
+                card_number: 73,
+                title: "Shuttle Diplomacy",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "US",
+                display_after_event: true
+               )
+    create_card(name: "TheVoiceOfAmerica",
+                card_number: 74,
+                title: "The Voice of America",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "US"
+               )
+    create_card(name: "LiberationTheology",
+                card_number: 75,
+                title: "Liberation Theology",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: "USSR"
+               )
+    create_card(name: "UssuriRiverSkirmish",
+                card_number: 76,
+                title: "Ussuri River Skirmish",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "AskNotWhatYourCountry",
+                card_number: 77,
+                title: "“Ask Not What Your Country…”",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "AllianceForProgress",
+                card_number: 78,
+                title: "Alliance for Progress",
+                description: "",
+                phase: :mid,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "AfricaScoring",
+                card_number: 79,
+                title: "Africa Scoring",
+                description: "",
+                phase: :mid,
+                ops_points: 0,
+                side: nil
+               )
+    create_card(name: "OneSmallStep",
+                card_number: 80,
+                title: "“One Small Step…”",
+                description: "",
+                phase: :mid,
+                ops_points: 2,
+                side: nil
+               )
+    create_card(name: "SouthAmericaScoring",
+                card_number: 81,
+                title: "South America Scoring",
+                description: "",
+                phase: :mid,
+                ops_points: 0,
+                side: nil
+               )
+    create_card(name: "IranianHostageCrisis",
+                card_number: 82,
+                title: "Iranian Hostage Crisis",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "TheIronLady",
+                card_number: 83,
+                title: "The Iron Lady",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "ReaganBombsLibya",
+                card_number: 84,
+                title: "Reagan Bombs Libya",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "StarWars",
+                card_number: 85,
+                title: "Star Wars",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "NorthSeaOil",
+                card_number: 86,
+                title: "North Sea Oil",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "TheReformer",
+                card_number: 87,
+                title: "The Reformer",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "MarineBarracksBombing",
+                card_number: 88,
+                title: "Marine Barracks Bombing",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "SovietsShootDownKal007",
+                card_number: 89,
+                title: "Soviets Shoot Down KAL-007",
+                description: "",
+                phase: :late,
+                ops_points: 4,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "Glasnost",
+                card_number: 90,
+                title: "Glasnost",
+                description: "",
+                phase: :late,
+                ops_points: 4,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "OrtegaElectedInNicaragua",
+                card_number: 91,
+                title: "Ortega Elected in Nicaragua",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "Terrorism",
+                card_number: 92,
+                title: "Terrorism",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: nil
+               )
+    create_card(name: "IranContraScandal",
+                card_number: 93,
+                title: "Iran-Contra Scandal",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "Chernobyl",
+                card_number: 94,
+                title: "Chernobyl",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "LatinAmericanDebtCrisis",
+                card_number: 95,
+                title: "Latin American Debt Crisis",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: "USSR"
+               )
+    create_card(name: "TearDownThisWall",
+                card_number: 96,
+                title: "Tear Down this Wall",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "AnEvilEmpire",
+                card_number: 97,
+                title: "An Evil Empire",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "US",
+                remove_after_event: true,
+                display_after_event: true
+               )
+    create_card(name: "AldrichAmesRemix",
+                card_number: 98,
+                title: "Aldrich Ames Remix",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "PershingIiDeployed",
+                card_number: 99,
+                title: "Pershing II Deployed",
+                description: "",
+                phase: :late,
+                ops_points: 3,
+                side: "USSR",
+                remove_after_event: true
+               )
+    create_card(name: "Wargames",
+                card_number: 100,
+                title: "Wargames",
+                description: "",
+                phase: :late,
+                ops_points: 4,
+                side: nil,
+                remove_after_event: true
+               )
+    create_card(name: "Solidarity",
+                card_number: 101,
+                title: "Solidarity",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: "US",
+                remove_after_event: true
+               )
+    create_card(name: "IranIraqWar",
+                card_number: 102,
+                title: "Iran-Iraq War",
+                description: "",
+                phase: :late,
+                ops_points: 2,
+                side: nil,
+                remove_after_event: true
+               )
+  end
+
   puts 'sample data was added successfully'
 end
 
@@ -1077,4 +1991,10 @@ def create_region(options={})
   region_attributes = { }
   attributes        = region_attributes.merge(options)
   Region.create!(attributes)
+end
+
+def create_card(options={})
+  card_attributes = { }
+  attributes        = card_attributes.merge(options)
+  Card.create!(attributes)
 end
